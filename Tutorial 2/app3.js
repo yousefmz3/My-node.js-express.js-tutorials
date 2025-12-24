@@ -7,7 +7,7 @@ const server = http.createServer(
             //Blocking code
             for (let i = 0; i < 1000; i++) {
                 for (let j = 0; j < 1000; j++) {
-                    console.log(`${i} ${j}`);
+                    console.log(`${i} ${j} server hacked`);
                 }
             }
             res.end('Here is our short history');
